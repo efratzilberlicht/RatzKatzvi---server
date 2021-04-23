@@ -1,0 +1,75 @@
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\DL.dll.config
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\DL.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\DL.pdb
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\BitMiracle.Docotic.Pdf.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\EntityFramework.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\GemBox.Document.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\itextsharp.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\SautinSoft.Document.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\BitMiracle.Docotic.Pdf.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\EntityFramework.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\GemBox.Document.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\itextsharp.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\SautinSoft.Document.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\obj\Debug\DL.csprojAssemblyReference.cache
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\obj\Debug\DL.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\obj\Debug\DL.csproj.CopyComplete
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\obj\Debug\DL.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - עותק\DL\obj\Debug\DL.pdb
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\DL.dll.config
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\DL.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\DL.pdb
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\BitMiracle.Docotic.Pdf.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\EntityFramework.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\GemBox.Document.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\itextsharp.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\SautinSoft.Document.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\BitMiracle.Docotic.Pdf.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\EntityFramework.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\GemBox.Document.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\itextsharp.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\SautinSoft.Document.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\obj\Debug\DL.csprojAssemblyReference.cache
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\obj\Debug\DL.csproj.CoreCompileInputs.cache
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\obj\Debug\DL.csproj.CopyComplete
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\obj\Debug\DL.dll
+C:\Users\משתמש\Desktop\בתיה\רץ כצבי\קוד\‏‏RatzKatzvi-server - 13-04-2021\DL\obj\Debug\DL.pdb
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\DL.dll.config
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\DL.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\DL.pdb
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\BitMiracle.Docotic.Pdf.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\GemBox.Document.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\itextsharp.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\SautinSoft.Document.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\System.Text.Encoding.CodePages.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\BitMiracle.Docotic.Pdf.xml
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\GemBox.Document.xml
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\itextsharp.xml
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\SautinSoft.Document.xml
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\bin\Debug\System.Text.Encoding.CodePages.xml
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\obj\Debug\DL.csprojAssemblyReference.cache
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\obj\Debug\DL.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\obj\Debug\DL.csproj.CopyComplete
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\obj\Debug\DL.dll
+C:\Users\User\Desktop\ΓאןΓאןΓאןΓאןRatzKatzvi-server -18-04-2021\DL\obj\Debug\DL.pdb

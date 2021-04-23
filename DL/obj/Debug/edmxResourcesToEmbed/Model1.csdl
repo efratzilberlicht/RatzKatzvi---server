@@ -1,0 +1,256 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RatzhKatzviModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BookPages">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemId" Type="Int32" Nullable="false" />
+    <Property Name="BookPage" Type="Int32" Nullable="false" />
+    <Property Name="Sentence" Type="Int32" Nullable="false" />
+    <Property Name="Text" Type="String" MaxLength="6000" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="Kinds">
+    <Key>
+      <PropertyRef Name="IdKind" />
+    </Key>
+    <Property Name="IdKind" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Kind" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Items" Relationship="RatzhKatzviModel.FK_Items_Kinds1" FromRole="Kinds" ToRole="Items" />
+  </EntityType>
+  <EntityType Name="LastLocation">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserId" Type="Int32" Nullable="false" />
+    <Property Name="LastLocation1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Date" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Users" Relationship="RatzhKatzviModel.FK_LastLocation_Users1" FromRole="LastLocation" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Subjects">
+    <Key>
+      <PropertyRef Name="SubjectId" />
+    </Key>
+    <Property Name="SubjectId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Subject" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="SearchedCounter" Type="Int32" Nullable="false" />
+    <Property Name="Parent" Type="Int32" Nullable="false" />
+    <Property Name="IconUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ItemsSubject" Relationship="RatzhKatzviModel.FK_ItemsSubject_Subjects" FromRole="Subjects" ToRole="ItemsSubject" />
+    <NavigationProperty Name="WordLocation" Relationship="RatzhKatzviModel.FK_BookPages_Subjects1" FromRole="Subjects" ToRole="WordLocation" />
+    <NavigationProperty Name="WordLocation1" Relationship="RatzhKatzviModel.FK_WordsLocations_Subjects" FromRole="Subjects" ToRole="WordLocation" />
+  </EntityType>
+  <EntityContainer Name="RatzhKatzviEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BookPages" EntityType="Self.BookPages" />
+    <EntitySet Name="Kinds" EntityType="Self.Kinds" />
+    <EntitySet Name="LastLocation" EntityType="Self.LastLocation" />
+    <EntitySet Name="Subjects" EntityType="Self.Subjects" />
+    <EntitySet Name="Items" EntityType="RatzhKatzviModel.Items" />
+    <AssociationSet Name="FK_Items_Kinds1" Association="RatzhKatzviModel.FK_Items_Kinds1">
+      <End Role="Kinds" EntitySet="Kinds" />
+      <End Role="Items" EntitySet="Items" />
+    </AssociationSet>
+    <EntitySet Name="ItemsSubject" EntityType="RatzhKatzviModel.ItemsSubject" />
+    <AssociationSet Name="FK_ItemsSubject_Items" Association="RatzhKatzviModel.FK_ItemsSubject_Items">
+      <End Role="Items" EntitySet="Items" />
+      <End Role="ItemsSubject" EntitySet="ItemsSubject" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ItemsSubject_Subjects" Association="RatzhKatzviModel.FK_ItemsSubject_Subjects">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="ItemsSubject" EntitySet="ItemsSubject" />
+    </AssociationSet>
+    <EntitySet Name="PreSearches" EntityType="RatzhKatzviModel.PreSearches" />
+    <EntitySet Name="WordLocation" EntityType="RatzhKatzviModel.WordLocation" />
+    <AssociationSet Name="FK_BookPages_PreSearches1" Association="RatzhKatzviModel.FK_BookPages_PreSearches1">
+      <End Role="PreSearches" EntitySet="PreSearches" />
+      <End Role="WordLocation" EntitySet="WordLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_BookPages_Subjects1" Association="RatzhKatzviModel.FK_BookPages_Subjects1">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="WordLocation" EntitySet="WordLocation" />
+    </AssociationSet>
+    <EntitySet Name="sysdiagrams" EntityType="RatzhKatzviModel.sysdiagrams" />
+    <AssociationSet Name="FK_WordsLocations_PreSearches" Association="RatzhKatzviModel.FK_WordsLocations_PreSearches">
+      <End Role="PreSearches" EntitySet="PreSearches" />
+      <End Role="WordLocation" EntitySet="WordLocation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WordsLocations_Subjects" Association="RatzhKatzviModel.FK_WordsLocations_Subjects">
+      <End Role="Subjects" EntitySet="Subjects" />
+      <End Role="WordLocation" EntitySet="WordLocation" />
+    </AssociationSet>
+    <EntitySet Name="Users" EntityType="RatzhKatzviModel.Users" />
+    <AssociationSet Name="FK_LastLocation_Users1" Association="RatzhKatzviModel.FK_LastLocation_Users1">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="LastLocation" EntitySet="LastLocation" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Items">
+    <Key>
+      <PropertyRef Name="ItemId" />
+    </Key>
+    <Property Name="ItemId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ItemKind" Type="Int32" Nullable="false" />
+    <Property Name="ContextUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ItemName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CreationDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="VisitedCounter" Type="Int32" />
+    <Property Name="ImgUrl" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="EnableSearch" Type="Boolean" Nullable="false" />
+    <NavigationProperty Name="Kinds" Relationship="RatzhKatzviModel.FK_Items_Kinds1" FromRole="Items" ToRole="Kinds" />
+    <NavigationProperty Name="ItemsSubject" Relationship="RatzhKatzviModel.FK_ItemsSubject_Items" FromRole="Items" ToRole="ItemsSubject" />
+  </EntityType>
+  <Association Name="FK_Items_Kinds1">
+    <End Type="RatzhKatzviModel.Kinds" Role="Kinds" Multiplicity="1" />
+    <End Type="RatzhKatzviModel.Items" Role="Items" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Kinds">
+        <PropertyRef Name="IdKind" />
+      </Principal>
+      <Dependent Role="Items">
+        <PropertyRef Name="ItemKind" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="ItemsSubject">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubjectId" Type="Int32" Nullable="false" />
+    <Property Name="ItemId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Items" Relationship="RatzhKatzviModel.FK_ItemsSubject_Items" FromRole="ItemsSubject" ToRole="Items" />
+    <NavigationProperty Name="Subjects" Relationship="RatzhKatzviModel.FK_ItemsSubject_Subjects" FromRole="ItemsSubject" ToRole="Subjects" />
+  </EntityType>
+  <Association Name="FK_ItemsSubject_Items">
+    <End Type="RatzhKatzviModel.Items" Role="Items" Multiplicity="1" />
+    <End Type="RatzhKatzviModel.ItemsSubject" Role="ItemsSubject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Items">
+        <PropertyRef Name="ItemId" />
+      </Principal>
+      <Dependent Role="ItemsSubject">
+        <PropertyRef Name="ItemId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ItemsSubject_Subjects">
+    <End Type="RatzhKatzviModel.Subjects" Role="Subjects" Multiplicity="1" />
+    <End Type="RatzhKatzviModel.ItemsSubject" Role="ItemsSubject" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="ItemsSubject">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="PreSearches">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PreSearch" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SearchedCounter" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="WordLocation" Relationship="RatzhKatzviModel.FK_BookPages_PreSearches1" FromRole="PreSearches" ToRole="WordLocation" />
+    <NavigationProperty Name="WordLocation1" Relationship="RatzhKatzviModel.FK_WordsLocations_PreSearches" FromRole="PreSearches" ToRole="WordLocation" />
+  </EntityType>
+  <EntityType Name="WordLocation">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="BookSenteceID" Type="Int32" Nullable="false" />
+    <Property Name="SearchId" Type="Int32" />
+    <Property Name="SubjectId" Type="Int32" />
+    <Property Name="Counter" Type="Int32" Nullable="false" />
+    <Property Name="BookItemId" Type="Int32" Nullable="false" />
+    <Property Name="BookPage" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="PreSearches" Relationship="RatzhKatzviModel.FK_BookPages_PreSearches1" FromRole="WordLocation" ToRole="PreSearches" />
+    <NavigationProperty Name="Subjects" Relationship="RatzhKatzviModel.FK_BookPages_Subjects1" FromRole="WordLocation" ToRole="Subjects" />
+    <NavigationProperty Name="PreSearches1" Relationship="RatzhKatzviModel.FK_WordsLocations_PreSearches" FromRole="WordLocation" ToRole="PreSearches" />
+    <NavigationProperty Name="Subjects1" Relationship="RatzhKatzviModel.FK_WordsLocations_Subjects" FromRole="WordLocation" ToRole="Subjects" />
+  </EntityType>
+  <Association Name="FK_BookPages_PreSearches1">
+    <End Type="RatzhKatzviModel.PreSearches" Role="PreSearches" Multiplicity="0..1" />
+    <End Type="RatzhKatzviModel.WordLocation" Role="WordLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PreSearches">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WordLocation">
+        <PropertyRef Name="SearchId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_BookPages_Subjects1">
+    <End Type="RatzhKatzviModel.Subjects" Role="Subjects" Multiplicity="0..1" />
+    <End Type="RatzhKatzviModel.WordLocation" Role="WordLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="WordLocation">
+        <PropertyRef Name="SubjectId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" Nullable="false" MaxLength="128" FixedLength="false" Unicode="true" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_WordsLocations_PreSearches">
+    <End Type="RatzhKatzviModel.PreSearches" Role="PreSearches" Multiplicity="1" />
+    <End Type="RatzhKatzviModel.WordLocation" Role="WordLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="PreSearches">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WordLocation">
+        <PropertyRef Name="BookSenteceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WordsLocations_Subjects">
+    <End Type="RatzhKatzviModel.Subjects" Role="Subjects" Multiplicity="1" />
+    <End Type="RatzhKatzviModel.WordLocation" Role="WordLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Subjects">
+        <PropertyRef Name="SubjectId" />
+      </Principal>
+      <Dependent Role="WordLocation">
+        <PropertyRef Name="BookSenteceID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Users">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Email" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="LastLocation" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="LastLocation1" Relationship="RatzhKatzviModel.FK_LastLocation_Users1" FromRole="Users" ToRole="LastLocation" />
+  </EntityType>
+  <Association Name="FK_LastLocation_Users1">
+    <End Type="RatzhKatzviModel.Users" Role="Users" Multiplicity="1" />
+    <End Type="RatzhKatzviModel.LastLocation" Role="LastLocation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="LastLocation">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
